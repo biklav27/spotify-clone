@@ -5,5 +5,9 @@
   },
   "allowScripts": {
     "@parcel/watcher@2.5.1": true
+  },
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   }
+
 }
